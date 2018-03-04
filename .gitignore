@@ -12,3 +12,8 @@
 *.code-workspace
 .vscode/*
 !.vscode/templates
+
+
+docs/phpdoc-cache*
+docs/structure.xml
+docs/ApiIndex.md
