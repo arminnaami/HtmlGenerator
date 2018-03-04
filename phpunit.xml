@@ -1,0 +1,12 @@
+<phpunit
+    bootstrap="./autoload.php"
+    colors="true"
+    stopOnFailure="false"
+    syntaxCheck="true"
+    >
+    <testsuites>
+        <testsuite>
+            <directory>./tests</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
