@@ -3,7 +3,7 @@
  * File for Select class
  */
 
-namespace Marschel3000\Html\Generator;
+namespace Myshs\Plugins\Html\Generator;
 
 /**
  * HTML <select> input
