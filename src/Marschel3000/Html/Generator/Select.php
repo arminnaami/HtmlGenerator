@@ -57,11 +57,29 @@ class Select extends AbstractFormInput implements FormInputInterface
         return null;
     }
 
+    /**
+     * check if input is mutiple
+     * @return bool
+     */
+    public function isMutiple() : bool
+    {
+        return ($this->getAttribute('mutiple') !== null);
+    }
+
+    /**
+     * marks an input as mutiple
+     * @return FormInputInterface instance
+     */
+    public function markMutiple() : FormInputInterface
+    {
+        return $this->setAttribute('mutiple')->addCssClass('mutiple');
+    }
+
     /** @inheritdoc */
     public function renderInnerHtml() : string
     {
         $html = '';
-        if (!$this->isRequired() and !in_array('', $this->used_values)) {
+        if (!$this->isRequired() and !$this->isMutiple() and !in_array('', $this->used_values)) {
             $empty_option = Option::generateEmpty();
             $html .= (string)$empty_option;
         }
