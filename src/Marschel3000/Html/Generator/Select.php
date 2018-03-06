@@ -3,7 +3,7 @@
  * File for Select class
  */
 
-namespace Myshs\Plugins\Html\Generator;
+namespace Marschel3000\Html\Generator;
 
 /**
  * HTML <select> input
@@ -61,25 +61,25 @@ class Select extends AbstractFormInput implements FormInputInterface
      * check if input is mutiple
      * @return bool
      */
-    public function isMutiple() : bool
+    public function isMultiple() : bool
     {
-        return ($this->getAttribute('mutiple') !== null);
+        return ($this->getAttribute('multiple') !== null);
     }
 
     /**
      * marks an input as mutiple
      * @return FormInputInterface instance
      */
-    public function markMutiple() : FormInputInterface
+    public function markMultiple() : FormInputInterface
     {
-        return $this->setAttribute('mutiple')->addCssClass('mutiple');
+        return $this->setAttribute('multiple')->addCssClass('multiple');
     }
 
     /** @inheritdoc */
     public function renderInnerHtml() : string
     {
         $html = '';
-        if (!$this->isRequired() and !$this->isMutiple() and !in_array('', $this->used_values)) {
+        if (!$this->isRequired() and !$this->isMultiple() and !in_array('', $this->used_values)) {
             $empty_option = Option::generateEmpty();
             $html .= (string)$empty_option;
         }
