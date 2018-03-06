@@ -25,7 +25,7 @@ class Element implements ElementInterface
     protected $attributes = [];
 
     /** @var array Attributes, that accepted as bool */
-    protected $boolean_attributes = ['required', 'disabled', 'readonly', 'selected', 'checked'];
+    protected $boolean_attributes = ['required', 'disabled', 'readonly', 'selected', 'checked', 'multiple'];
 
     /** @var array(Element|string) */
     protected $children = [];
