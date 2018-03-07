@@ -72,6 +72,7 @@ class Select extends AbstractFormInput implements FormInputInterface
      */
     public function markMultiple() : FormInputInterface
     {
+        $this->setAttribute('name', $this->getAttribute('name').'[]');
         return $this->setAttribute('multiple')->addCssClass('multiple');
     }
 
