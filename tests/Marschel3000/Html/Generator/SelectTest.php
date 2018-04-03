@@ -3,13 +3,13 @@
  * Test Marschel3000\Select
  */
 
-namespace Myshs\Tests\Plugins\Html\Generator;
+namespace Marschel3000\Tests\Html\Generator;
 
 use Marschel3000\Html\Generator\Select;
 
 /**
  * Test des Select Plugins
- * @author Marcel Kade <marcel.kade@t-systems.com>
+ * @author Marcel Kade <marcel.kade@mailbox.org>
  */
 class SelectTest extends \PHPUnit\Framework\TestCase
 {

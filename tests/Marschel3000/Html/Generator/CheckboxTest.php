@@ -3,13 +3,13 @@
  * Test Marschel3000\Checkbox
  */
 
-namespace Myshs\Tests\Plugins\Html\Generator;
+namespace Marschel3000\Tests\Html\Generator;
 
 use Marschel3000\Html\Generator\Checkbox;
 
 /**
  * Test des Checkbox Plugins
- * @author Marcel Kade <marcel.kade@t-systems.com>
+ * @author Marcel Kade <marcel.kade@mailbox.org>
  */
 class CheckboxTest extends \PHPUnit\Framework\TestCase
 {

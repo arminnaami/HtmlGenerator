@@ -3,13 +3,13 @@
  * Test Marschel3000\Textarea
  */
 
-namespace Myshs\Tests\Plugins\Html\Generator;
+namespace Marschel3000\Tests\Html\Generator;
 
 use Marschel3000\Html\Generator\Textarea;
 
 /**
  * Test des Textarea Plugins
- * @author Marcel Kade <marcel.kade@t-systems.com>
+ * @author Marcel Kade <marcel.kade@mailbox.org>
  */
 class TextareaTest extends \PHPUnit\Framework\TestCase
 {

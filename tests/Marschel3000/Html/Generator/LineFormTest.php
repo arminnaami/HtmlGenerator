@@ -4,14 +4,14 @@
  */
 
 
-namespace Myshs\Tests\Plugins\Html\Generator;
+namespace Marschel3000\Tests\Html\Generator;
 
 use Marschel3000\Html\Generator\LineForm;
 use Marschel3000\Html\Generator\Input;
 
 /**
  * Test des LineForm Plugins
- * @author Marcel Kade <marcel.kade@t-systems.com>
+ * @author Marcel Kade <marcel.kade@mailbox.org>
  */
 class LineFormTest extends \PHPUnit\Framework\TestCase
 {

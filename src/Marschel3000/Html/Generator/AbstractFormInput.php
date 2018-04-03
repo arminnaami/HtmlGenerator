@@ -8,7 +8,7 @@ namespace Marschel3000\Html\Generator;
 /**
  * HTML generic form input (input, select, textarea,..) generator
  * @package Plugins
- * @author Marcel Kade <marcel.kade@t-systems.com>
+ * @author Marcel Kade <marcel.kade@mailbox.org>
  */
 abstract class AbstractFormInput extends Element implements FormInputInterface
 {
