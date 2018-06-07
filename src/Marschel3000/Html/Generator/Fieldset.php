@@ -8,7 +8,7 @@ namespace Marschel3000\Html\Generator;
 /**
  * HTML <fieldset> generator
  * @package Plugins
- * @author Marcel Kade <marcel.kade@t-systems.com>
+ * @author Marcel Kade <marcel.kade@mailbox.org>
  */
 class Fieldset extends Element implements ElementInterface
 {

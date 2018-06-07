@@ -8,7 +8,7 @@ namespace Marschel3000\Html\Generator;
 /**
  * HTML <select> input
  * @package Plugins
- * @author Marcel Kade <marcel.kade@t-systems.com>
+ * @author Marcel Kade <marcel.kade@mailbox.org>
  */
 class Option extends Element implements ElementInterface
 {

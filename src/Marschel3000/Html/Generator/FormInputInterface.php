@@ -8,7 +8,7 @@ namespace Marschel3000\Html\Generator;
 /**
  * Interface for all HTML inputs (input, select, textarea, ...)
  * @package Plugins
- * @author Marcel Kade <marcel.kade@t-systems.com>
+ * @author Marcel Kade <marcel.kade@mailbox.org>
  */
 interface FormInputInterface extends ElementInterface
 {

@@ -4,13 +4,13 @@
  */
 
 
-namespace Myshs\Tests\Plugins\Html\Generator;
+namespace Marschel3000\Tests\Html\Generator;
 
 use Marschel3000\Html\Generator\Form;
 
 /**
  * Test des Form
- * @author Marcel Kade <marcel.kade@t-systems.com>
+ * @author Marcel Kade <marcel.kade@mailbox.org>
  */
 class FormTest extends \PHPUnit\Framework\TestCase
 {

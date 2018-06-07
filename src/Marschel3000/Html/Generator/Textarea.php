@@ -8,7 +8,7 @@ namespace Marschel3000\Html\Generator;
 /**
  * HTML <textarea>
  * @package Plugins
- * @author Marcel Kade <marcel.kade@t-systems.com>
+ * @author Marcel Kade <marcel.kade@mailbox.org>
  */
 class Textarea extends AbstractFormInput implements FormInputInterface
 {

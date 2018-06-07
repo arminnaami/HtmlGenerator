@@ -8,7 +8,7 @@ namespace Marschel3000\Html\Generator;
 /**
  * HTML <form> generator
  * @package Plugins
- * @author Marcel Kade <marcel.kade@t-systems.com>
+ * @author Marcel Kade <marcel.kade@mailbox.org>
  */
 class Form extends Element implements ElementInterface
 {
