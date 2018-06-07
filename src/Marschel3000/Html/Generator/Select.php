@@ -58,7 +58,7 @@ class Select extends AbstractFormInput implements FormInputInterface
     }
 
     /**
-     * check if input is mutiple
+     * check if input is multiple
      * @return bool
      */
     public function isMultiple() : bool
@@ -67,7 +67,7 @@ class Select extends AbstractFormInput implements FormInputInterface
     }
 
     /**
-     * marks an input as mutiple
+     * marks an input as multiple
      * @return FormInputInterface instance
      */
     public function markMultiple() : FormInputInterface
@@ -109,7 +109,7 @@ class Select extends AbstractFormInput implements FormInputInterface
      * add multiple options
      * @param array $options ['{value:string}' => '{text:string}']
      * @param bool  $selected selected option (value)
-     * @param array $disabled list of disabled oprions ([value])
+     * @param array $disabled list of disabled options ([value])
      * @return Select instance
      */
     public function addOptions(array $options, string $selected = '', array $disabled = []) : Select
@@ -132,7 +132,7 @@ class Select extends AbstractFormInput implements FormInputInterface
      * @param string $group_label optgroup label
      * @param array $options ['{value:string}' => '{text:string}']
      * @param bool  $selected selected option (value)
-     * @param array $disabled list of disabled oprions ([value])
+     * @param array $disabled list of disabled options ([value])
      * @return OptGroup optgroup
      */
     public function &addOptGroup(

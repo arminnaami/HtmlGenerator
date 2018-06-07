@@ -88,7 +88,7 @@ abstract class AbstractFormInput extends Element implements FormInputInterface
     }
 
     /**
-     * mark input as oprional (not required)
+     * mark input as optional (not required)
      * @return FormInputInterface instance
      */
     public function markOptional() : FormInputInterface

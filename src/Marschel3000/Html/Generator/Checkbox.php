@@ -42,7 +42,7 @@ class Checkbox extends Input implements FormInputInterface
     }
 
     /**
-     * is ckeckbox checked
+     * is checkbox checked
      * @return bool
      */
     public function isChecked() : bool

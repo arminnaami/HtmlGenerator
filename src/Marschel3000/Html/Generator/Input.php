@@ -17,7 +17,7 @@ class Input extends AbstractFormInput implements FormInputInterface
 
     /**
      * @param string $name Input-name
-     * @param string $type Input-type (defaut: 'text)
+     * @param string $type Input-type (default: 'text)
      * @param string $id   ID (default: 'id_'.$name)
      */
     public function __construct(string $name, string $type = 'text', string $id = '')

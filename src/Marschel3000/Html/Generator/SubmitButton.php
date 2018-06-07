@@ -6,7 +6,7 @@
 namespace Marschel3000\Html\Generator;
 
 /**
- * HTML <inout type="submit> generator
+ * HTML <input type="submit> generator
  * @package Plugins
  * @author Marcel Kade <marcel.kade@t-systems.com>
  */

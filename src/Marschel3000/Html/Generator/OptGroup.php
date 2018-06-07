@@ -28,7 +28,7 @@ class OptGroup extends Element implements ElementInterface
      * add multiple options
      * @param array $options ['{value:string}' => '{text:string}']
      * @param bool  $selected selected option (value)
-     * @param array $disabled list of disabled oprions ([value])
+     * @param array $disabled list of disabled options ([value])
      * @return OptGroup instance
      */
     public function addOptions(array $options, string $selected = '', array $disabled = []) : OptGroup
